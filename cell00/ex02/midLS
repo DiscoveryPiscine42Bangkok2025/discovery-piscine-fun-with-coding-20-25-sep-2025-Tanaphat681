@@ -1,2 +1,1 @@
-echo "ls -m" > midLS
-cat midLS
+ls -m
