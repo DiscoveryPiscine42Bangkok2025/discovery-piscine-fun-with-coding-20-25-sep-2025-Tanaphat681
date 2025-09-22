@@ -1,39 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basics</title>
     <style>
         body {
             background-color: pink;
-            text-align: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
         }
         h1 {
+            text-align: center;
             color: white;
+            font-size: 3em;
         }
-        .footer {
-            text-align: right;
+        .shops {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 20px 0;
+        }
+        .shops img {
+            width: 250px;
+            height: auto;
+            border: 2px solid white;
+        }
+        .shops a {
+            display: block;
+            margin-top: 10px;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+        }
+        hr {
+            margin: 40px 0 20px;
+        }
+        .copyright {
             font-style: italic;
             font-family: monospace;
+            text-align: right;
+            padding: 0 20px 20px 0;
         }
     </style>
 </head>
 <body>
+
     <h1>Piscine Web ♥</h1>
 
-    <div>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon" width="200">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Shopee_logo.svg" alt="Shopee" width="200">
-    </div>
-
-    <div>
-        <a href="https://www.amazon.com">Amazon</a>
-        <a href="https://shopee.com">Shopee</a>
+    <div class="shops">
+        <div>
+            <img src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/ca5d12864c12916c05640b36e47ac5c9.png" alt="Shopee">
+            <a href="https://shopee.co.th">Shopee</a>
+        </div>
+        <div>
+            <img src="https://img.salehere.co.th/p/1200x0/2025/02/10/fyouxnlu4jky.jpg" alt="Uniqlo">
+            <a href="https://www.uniqlo.com/th/th/">Uniqlo</a>
+        </div>
     </div>
 
     <hr>
 
-    <div class="footer">
-        © yourlogin 2025
+    <div class="copyright">
+        © wil 2025
     </div>
+
 </body>
 </html>
+
