@@ -6,26 +6,18 @@
   <title>Resume 1</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    html {
-      scroll-behavior: smooth;
-    }
+    html { scroll-behavior: smooth; }
     body {
       padding-top: 70px; /* เว้นพื้นที่ให้ navbar */
       font-family: Arial, sans-serif;
     }
     .profile-pic {
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
-      border-radius: 50%;
-      margin-bottom: 15px;
+      width: 150px; height: 150px; object-fit: cover;
+      border-radius: 50%; margin-bottom: 15px;
     }
-    .section {
-      padding: 60px 20px;
-    }
-    .section:nth-of-type(even) {
-      background-color: #f8f9fa;
-    }
+    .section { padding: 60px 20px; }
+    .section:nth-of-type(even) { background-color: #f8f9fa; }
+    .skill-badge { margin: 6px; }
   </style>
 </head>
 <body>
@@ -41,6 +33,7 @@
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="#profile">Profile</a></li>
           <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skill">Skill</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -49,31 +42,32 @@
 
   <!-- Profile -->
   <section id="profile" class="section text-center">
-    <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-pic">
-    <h2>นายธนภัทร ศรีวรรณภูมิ</h2>
-    <p class="lead">Web Developer</p>
+    <img src="https://img2.imgbiz.com/imgbiz/IMG_6591.jpg" alt="Profile Picture" class="profile-pic">
+    <h2>นายนรวีร์ เย็งยูโซ๊ะ</h2>
+    <p class="lead"></p>
   </section>
 
-  <!-- Experience & Skills -->
+  <!-- Experience -->
   <section id="experience" class="section">
     <div class="container">
-      <h2 class="text-center mb-4">ประสบการณ์ & ทักษะ</h2>
-      <div class="row">
-        <div class="col-md-6">
-          <h4>ประสบการณ์ทำงาน</h4>
+      <h2 class="text-center mb-4">ประสบการณ์</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
           <ul>
-            <li>Intern - Frontend Developer @ Tech Company (2024)</li>
-            <li>Freelance Web Designer (2023 - ปัจจุบัน)</li>
+            <li>เคยประกวดการแข่งขันดนตรีอย่างมากมาย เช่น แชมป์รายการแข่งขันดนตรี The Power Band</li>
+            <li>ชนะเลิศถ้วยพระราชทานสมเด็จพระเทพ</li>
           </ul>
         </div>
-        <div class="col-md-6">
-          <h4>ทักษะ</h4>
-          <ul>
-            <li>HTML, CSS, JavaScript</li>
-            <li>Bootstrap, React</li>
-            <li>Git, GitHub</li>
-          </ul>
-        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skill -->
+  <section id="skill" class="section text-center">
+    <div class="container">
+      <h2 class="mb-4">ทักษะ (Skills)</h2>
+      <div>
+        <span class="badge bg-primary skill-badge">Play the drums</span>
       </div>
     </div>
   </section>
@@ -81,9 +75,9 @@
   <!-- Contact -->
   <section id="contact" class="section text-center">
     <h2>ติดต่อ</h2>
-    <p>Email: <a href="68100333@kmitl.ac.th">68100333@kmitl.ac.th</a></p>
-    <p>GitHub: <a href="https://github.com/username" target="_blank" rel="noopener">github.com/username tsriwnn</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/username" target="_blank" rel="noopener">linkedin.com/in/username</a></p>
+    <p>Email: <a href="mailto:68100077@kmitl.ac.th">68100077@kmitl.ac.th</a></p>
+    <p>Facebook: <a href="https://www.facebook.com/goffari.yengyousoh" target="_blank" rel="noopener">Goffari Yengyousoh</a></p>
+    <p>Line: <a href="https://line.me/ti/p/~goffari_nrv" target="_blank" rel="noopener">goffari_nrv</a></p>
   </section>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
